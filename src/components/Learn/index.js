@@ -6,8 +6,8 @@ function Learn() {
       <h1 className="display-5 text-center pb-5">
         What will you Learn in ACCA?
       </h1>
-      <div className="row">
-        <div className="card col p-0">
+      <div className="row w-100">
+        <div className="card col-12 col-sm-6 col-md-4 p-0">
           <div className="card-body p-0 m-0 d-flex flex-column justify-content-between">
             <div>
               <h1 className="learn-heading">Skills</h1>
@@ -25,8 +25,7 @@ function Learn() {
             <h1 className="learn-last-heading">7 papers</h1>
           </div>
         </div>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <div className="card col p-0 m-0">
+        <div className="card col-12 col-sm-6 col-md-4 p-0 m-0">
           <div className="card-body p-0 m-0 d-flex flex-column justify-content-between">
             <div>
               <h1 className="learn-heading">Career Guidelines</h1>
@@ -43,8 +42,7 @@ function Learn() {
             <h1 className="learn-last-heading">4 papers</h1>
           </div>
         </div>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <div className="card col p-0">
+        <div className="card col-12 col-sm-6 col-md-4 p-0">
           <div className="card-body p-0 m-0 d-flex flex-column justify-content-between">
             <div>
               <h1 className="learn-heading">Knowledge</h1>
@@ -58,7 +56,7 @@ function Learn() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
   );
 }
 
