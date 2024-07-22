@@ -1,0 +1,17 @@
+.card-img-top{
+    width: 150px;
+}
+
+.card-text{
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+.choose-card{
+    box-shadow: 0px 0px 15px #34107A;
+}
+
+.choose-card:hover{
+    transform: scale(1.1);
+    transition-duration: 1s, 2s;
+}
